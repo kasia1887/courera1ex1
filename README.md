@@ -1,2 +1,2 @@
-# courera1ex1
-courera1ex1
+# courera_angularjs
+courera_angularjs
