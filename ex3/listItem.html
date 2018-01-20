@@ -1,0 +1,9 @@
+<div class="col-md-12">
+  <ul>
+    <li ng-repeat="item in nid.found track by $index">
+      {{item}}
+      <button ng-click="nid.removeItem($index)"> Remove </button>
+    </li>
+  </ul>
+  <div ng-if="nid.nothing" class="error">Nothing found</div>
+</div>
