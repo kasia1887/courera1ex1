@@ -1,0 +1,10 @@
+<div  ui-sref="home">Home </div>
+<div  ui-sref="categories">Categories</div>
+
+<h1>Our restaurant</h1>
+<h2>Chosen items</h2>
+
+<div ng-repeat="items in ctrl.items">
+   <h3>{{items.short_name}}</h3>
+   <p><strong>{{items.name}}</strong>: {{items.description}}</p>    
+</div>
