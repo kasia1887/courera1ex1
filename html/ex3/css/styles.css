@@ -1,0 +1,9 @@
+.nav>li {
+    border:1px solid;
+    text-align: center;
+    background:#cccccc;
+}
+
+.main{
+    background: #dddddd;
+}
